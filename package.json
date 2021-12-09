@@ -4,12 +4,12 @@
   "description": "this is sample server application to run the given test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "gayathri polubothu",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^26.6.3"
   }
 }
