@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const divideArrayIntoNEqualParts = require('./divide')
+const divideArrayIntoNEqualParts = require('./src/divide')
 const app = express()
 const port = process.env.ENV || 8090
 
